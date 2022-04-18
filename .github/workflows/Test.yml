@@ -6,7 +6,9 @@ on:
     workflows:
       - Preflight
     types:
-      - completed
+      - requested
+    branches:
+      - main
 
 
 jobs:
