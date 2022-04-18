@@ -4,10 +4,9 @@ name: Preflight
 on:
   - pull_request
 
-
 jobs:
   preflight-job:
     name: Preflight Step
     runs-on: ubuntu-latest
     steps:
-      - run: env
+      - run: echo "Hi Preflight"
