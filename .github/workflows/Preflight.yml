@@ -2,11 +2,14 @@
 name: Preflight
 
 on:
-  - pull_request
+  pull_request:
+    branches:
+      - main
+
 
 jobs:
   preflight-job:
     name: Preflight Step
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hi Preflight"
+      - run: echo "Hello............ Preflight"
